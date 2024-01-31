@@ -88,5 +88,7 @@
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": true,
   "window.zoomLevel": 0.5,
+  "files.hotExit": "off",
+  "window.restoreWindows": "none",
 
 }
