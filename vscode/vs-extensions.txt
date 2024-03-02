@@ -31,3 +31,4 @@ wix.vscode-import-cost
 yy0931.save-as-root
 yzane.markdown-pdf
 rangav.vscode-thunder-client
+DotJoshJohnson.xml
