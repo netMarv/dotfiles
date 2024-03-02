@@ -13,7 +13,6 @@ formulahendry.auto-rename-tag
 formulahendry.code-runner
 hediet.vscode-drawio
 htmlhint.vscode-htmlhint
-humao.rest-client
 jakewilson.vscode-cdnjs
 jock.svg
 lior-chamla.google-fonts
@@ -24,12 +23,11 @@ ms-vscode-remote.remote-wsl
 ms-vscode.remote-explorer
 oderwat.indent-rainbow
 pnp.polacode
-postman.postman-for-vscode
 ritwickdey.liveserver
 steoates.autoimport
 streetsidesoftware.code-spell-checker
 stylelint.vscode-stylelint
-tomoki1207.pdf
 wix.vscode-import-cost
 yy0931.save-as-root
 yzane.markdown-pdf
+rangav.vscode-thunder-client
