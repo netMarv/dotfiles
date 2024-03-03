@@ -30,6 +30,8 @@
   "editor.scrollbar.vertical": "auto",
   "window.titleBarStyle": "custom",
   "editor.scrollbar.horizontal": "auto",
+  "editor.stickyScroll.enabled": true,
+  "editor.stickyScroll.maxLineCoun": 5,
 
   // APC
   "apc.activityBar": {
