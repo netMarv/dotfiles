@@ -6,7 +6,7 @@
   "workbench.settings.editor": "json",
 
   // Controls whether to follow symlinks while searching. -> THIS HELPS IF CPU LAOD IS MAXED OUT WHILE CONNECTING WITH SSH DUE TO VSCODE-SERVER
-  "search.followSymlinks": true,
+  "search.followSymlinks": false,
 
   // Theme
   "workbench.colorTheme": "Aura Dark",
