@@ -94,7 +94,7 @@
   "editor.linkedEditing": true,
   "editor.snippetSuggestions": "top",
   "editor.linkedEditing": true,
-  "breadcrumbs.filePath": "off",
+  "breadcrumbs.filePath": "on",
   "files.trimTrailingWhitespace": true,
   "[markdown]": {
     "files.trimTrailingWhitespace": false
