@@ -5,7 +5,7 @@
   // open json editor for settings
   "workbench.settings.editor": "json",
 
-  // Controls whether to follow symlinks while searching. -> THIS HELPS IF CPU LAOD IS MAXED OUT WHILE CONNECTING WITH SSH DUE TO VSCODE-SERVER
+  // Controls whether to follow symlinks while searching. -> THIS HELPS IF CPU LOAD IS MAXED OUT WHILE CONNECTING WITH SSH DUE TO VSCODE-SERVER
   "search.followSymlinks": false,
 
   // Theme
@@ -80,7 +80,26 @@
       "editor.selectionBackground": "#135564",
       "editor.selectionHighlightBackground": "#135564",
       "editorCursor.foreground": "#ffff00",
-      "terminalCursor.foreground": "#ffff00"
+      "terminalCursor.foreground": "#ffff00",
+
+      // Customizations for search match visibility
+      "editor.findMatchBackground": "#ff000050", // Semi-transparent red background for current match
+      "editor.findMatchForeground": "#ffffff", // White text for current match
+      "editor.findMatchHighlightBackground": "#ff000020", // Light semi-transparent red for other matches
+      "editor.findMatchHighlightForeground": "#ffffff", // White text for other matches
+      "editor.findRangeHighlightBackground": "#0000ff20", // Light semi-transparent blue for the search range
+      "editor.findMatchBorder": "#ff0000", // Red border for current match
+      "editor.findMatchHighlightBorder": "#ff0000", // Red border for other matches
+      "editor.findRangeHighlightBorder": "#0000ff", // Blue border for the search range
+
+      // Customizations for the panel bar
+      "panel.background": "#1a1a1a", // Slightly lighter background color of the panel
+      "panel.border": "#2a2a2a", // Border color of the panel for a smoother transition
+      "panelTitle.activeForeground": "#c0c0c0", // Soft light gray text color for the active panel title
+      "panelTitle.inactiveForeground": "#808080", // Dark gray text color for inactive panel titles
+      "panelTitle.activeBorder": "#3a3a3a", // Dark gray border color for the active panel title
+      "panel.dropBorder": "#3a3a3a", // Border color when dragging and dropping panels
+      "panelInput.border": "#3a3a3a" // Border color for inputs in the panel
     }
   },
 
