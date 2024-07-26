@@ -76,7 +76,11 @@
       "activityBar.background": "#110f17",
       "statusBar.background": "#110f17",
       "editorGroupHeader.tabsBackground": "#110f17",
-      "tab.inactiveBackground": "#110f17"
+      "tab.inactiveBackground": "#110f17",
+      "editor.selectionBackground": "#135564",
+      "editor.selectionHighlightBackground": "#135564",
+      "editorCursor.foreground": "#ffff00",
+      "terminalCursor.foreground": "#ffff00"
     }
   },
 
