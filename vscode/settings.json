@@ -1,174 +1,48 @@
 {
-  //set default terminal
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
+    // General Workbench Settings
+    "workbench.startupEditor": "none",
+    "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-auto",
+    "workbench.colorTheme": "GitHub Dark Dimmed",
+    "workbench.settings.editor": "json", // Open JSON editor for settings
+    "window.commandCenter": false, // Disable the command center
+    "window.titleBarStyle": "custom", // Use custom title bar
+  
+    // Git Integration Settings
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+  
+    // Explorer Settings
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+  
+    // Terminal Settings
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  
+    // Editor Font Settings
+    "editor.fontFamily": "Geist Mono",
+    "scm.inputFontFamily": "Geist Mono",
+    "chat.editor.fontFamily": "Geist Mono",
+    "debug.console.fontFamily": "Geist Mono",
+    "editor.codeLensFontFamily": "Geist Mono",
+    "notebook.output.fontFamily": "Geist Mono",
+    "markdown.preview.fontFamily": "Geist Mono",
+    "editor.inlayHints.fontFamily": "Geist Mono",
+  
+    // Editor Display Settings
+    "editor.fontSize": 14,
+    "editor.minimap.enabled": false,
+    "editor.scrollbar.vertical": "auto",
+    "editor.scrollbar.horizontal": "auto",
+    "editor.stickyScroll.enabled": true,
+    "editor.stickyScroll.maxLineCoun": 5,
+  
+    // Search Settings
+    "search.followSymlinks": false, // Helps if CPU load is maxed out while
+                                    // connecting with SSH due to vscode-server
 
-  // open json editor for settings
-  "workbench.settings.editor": "json",
-
-  // Controls whether to follow symlinks while searching. -> THIS HELPS IF CPU LOAD IS MAXED OUT WHILE CONNECTING WITH SSH DUE TO VSCODE-SERVER
-  "search.followSymlinks": false,
-
-  // Theme
-  "workbench.colorTheme": "Aura Dark",
-  "workbench.iconTheme": "moxer-icons",
-
-  // Change font
-  "editor.fontFamily": "Geist Mono",
-  "scm.inputFontFamily": "Geist Mono",
-  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
-  "chat.editor.fontFamily": "Geist Mono",
-  "debug.console.fontFamily": "Geist Mono",
-  "editor.codeLensFontFamily": "Geist Mono",
-  "notebook.output.fontFamily": "Geist Mono",
-  "markdown.preview.fontFamily": "Geist Mono",
-  "editor.inlayHints.fontFamily": "Geist Mono",
-
-  // Font size
-  "editor.fontSize": 14,
-  "terminal.integrated.fontSize": 14,
-
-  // ui
-  "editor.minimap.enabled": false,
-  "window.commandCenter": false,
-  "editor.scrollbar.vertical": "auto",
-  "window.titleBarStyle": "custom",
-  "editor.scrollbar.horizontal": "auto",
-  "editor.stickyScroll.enabled": true,
-  "editor.stickyScroll.maxLineCoun": 5,
-
-  // APC
-  "apc.activityBar": {
-    "hideSettings": true,
-    "size": 35
-  },
-  "apc.electron": {
-    "titleBarStyle": "hiddenInset",
-    "trafficLightPosition": {
-      "x": 12,
-      "y": 10
-    }
-  },
-  "apc.font.family": "Geist Mono",
-  "apc.monospace.font.family": "Geist Mono",
-  "apc.statusBar": {
-    "position": "editor-bottom",
-    "height": 28,
-    "fontSize": 12
-  },
-
-  // Cusom css
-  "apc.stylesheet": {
-    ".sidebar > .composite": "height: 12px !important",
-    ".title-label": "display: none !important",
-    ".title-actions": "display: none !important",
-    // ".tabs-and-actions-container > .editor-actions": "display: none !important",
-    // ".titlebar-center": "display: none !important",
-    // ".titlebar-right": "display: none !important",
-    ".inline-tabs-placeholder": "display: none !important",
-    ".split-view-view .visible": "background-color: #110f17 !important"
-  },
-
-  // Aura theme customisation
-  "workbench.colorCustomizations": {
-    "[Aura Dark]": {
-      "editor.background": "#110f17",
-      "terminal.background": "#110f17",
-      "activityBar.background": "#110f17",
-      "statusBar.background": "#110f17",
-      "editorGroupHeader.tabsBackground": "#110f17",
-      "tab.inactiveBackground": "#110f17",
-      "editor.selectionBackground": "#135564",
-      "editor.selectionHighlightBackground": "#135564",
-      "editorCursor.foreground": "#ffff00",
-      "terminalCursor.foreground": "#ffff00",
-
-      // Customizations for search match visibility
-      "editor.findMatchBackground": "#ff000050", // Semi-transparent red background for current match
-      "editor.findMatchForeground": "#ffffff", // White text for current match
-      "editor.findMatchHighlightBackground": "#ff000020", // Light semi-transparent red for other matches
-      "editor.findMatchHighlightForeground": "#ffffff", // White text for other matches
-      "editor.findRangeHighlightBackground": "#0000ff20", // Light semi-transparent blue for the search range
-      "editor.findMatchBorder": "#ff0000", // Red border for current match
-      "editor.findMatchHighlightBorder": "#ff0000", // Red border for other matches
-      "editor.findRangeHighlightBorder": "#0000ff", // Blue border for the search range
-
-      // Customizations for the panel bar
-      "panel.background": "#1a1a1a", // Slightly lighter background color of the panel
-      "panel.border": "#2a2a2a", // Border color of the panel for a smoother transition
-      "panelTitle.activeForeground": "#c0c0c0", // Soft light gray text color for the active panel title
-      "panelTitle.inactiveForeground": "#808080", // Dark gray text color for inactive panel titles
-      "panelTitle.activeBorder": "#3a3a3a", // Dark gray border color for the active panel title
-      "panel.dropBorder": "#3a3a3a", // Border color when dragging and dropping panels
-      "panelInput.border": "#3a3a3a" // Border color for inputs in the panel
-    }
-  },
-
-  //VS-CODE Search
-  "search.exclude": {
-    "**/*.code-search": true,
-    "**/bower_components": true,
-    "**/node_modules": true
-  },
-
-  // Misc
-  "workbench.startupEditor": "none",
-  "explorer.compactFolders": false,
-  "editor.tabSize": 2,
-  "editor.linkedEditing": true,
-  "editor.snippetSuggestions": "top",
-  "editor.linkedEditing": true,
-  "breadcrumbs.filePath": "on",
-  "files.trimTrailingWhitespace": true,
-  "[markdown]": {
-    "files.trimTrailingWhitespace": false
-  },
-  "editor.bracketPairColorization.enabled": true,
-  "editor.guides.bracketPairs": true,
-  "window.zoomLevel": 0.5,
-  "window.restoreFullscreen": false,
-  "window.restoreWindows": "none",
-  "hediet.vscode-drawio.resizeImages": null,
-
-  //GIT
-  "git.autofetch": true,
-
-  //Prettier
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[handlebars]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[markdown]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[scss]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[svelte]": {
-    "editor.defaultFormatter": "svelte.svelte-vscode"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "editor.formatOnSave": true
-}
+    // Extension Settings
+    "extensions.ignoreRecommendations": true
+  }
+  
